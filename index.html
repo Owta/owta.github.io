@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>lily@helix > newtab</title>
+
+  <style>
+    html {
+      align-items: center;
+      background-color: #3b3b3b;
+      color: #c5c8c601;
+      display: flex;
+      font: 22px/1 "Inconsolata", monospace;
+      height: 100%;
+      justify-content: center;
+    }
+
+    body {
+      background-color: #1d1f21;
+      border-radius: 2px;
+      box-shadow: 1px 1px 6px #1d1f2187;
+      color: #c5c8c6;
+      display: flex;
+      flex-direction: column;
+      min-height: 30ch;
+      min-width: 50vw;
+      padding: 2em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p span {
+      color: #b5bd68;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      font-weight: bold;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      column-gap: 2em;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 1em 0;
+    }
+
+    ul:nth-child(5n + 1) li:first-child {
+      color: #a54242;
+    }
+
+    ul:nth-child(5n + 2) li:first-child {
+      color: #de935f;
+    }
+    
+    ul:nth-child(5n + 3) li:first-child {
+      color: #f0c674;
+    }
+    
+    ul:nth-child(5n + 4) li:first-child {
+      color: #8c9440;
+    }
+
+    ul:nth-child(5n + 5) li:first-child {
+      color: #85678f;
+    }
+
+    li:first-child {
+      font-weight: bold;
+    }
+
+    li:last-child {
+      margin: 0 0 1em;
+    }
+
+    p #cursor {
+      background-color: #b5bd68;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      0%, 49% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <p><span>lily@helix &gt; </span>newtab</p>
+
+  <nav>
+    <ul>
+      <li>entertainment</li>
+      <li><a href="https://youtube.com/feed/subscriptions">youtube</a></li>
+      <li><a href="https://twitch.tv/directory/following">twitch</a></li>
+      <li><a href="https://twitter.com/">twitter</a></li>
+      <li><a href="https://twitch.tv/cakeyneko">chloe twitch</a></li>
+    </ul>
+
+    <ul>
+      <li>gaming</li>
+      <li><a href="https://hshop.erista.me/c/games">hshop</a></li>
+      <li><a href="https://f95zone.to/forums/games.2/">f95zone</a></li>
+      <li><a href="https://ripped.guide/">ripped</a></li>
+      <li><a href="https://research.google.com/semantris/">semantris</a></li>
+    </ul>
+
+    <ul>
+      <li>pokemon</li>
+      <li><a href="https://game8.co/games/Pokemon-Scarlet-Violet">game8</a></li>
+      <li><a href="https://www.smogon.com/dex/sv/pokemon/">smogon sv</a></li>
+      <li><a href="https://www.serebii.net/">serebii</a></li>
+      <li><a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page">bulbapedia</a></li>
+    </ul>
+
+    <ul>
+      <li>fortnite</li>
+      <li><a href="https://fortnitedb.com">stw quests</a></li>
+      <li><a href="https://fnbr.co/shop">br shop</a></li>
+    </ul>
+    <ul>
+      <li>ffxiv</li>
+      <li><a href="https://sqex.to/msp">mogstation</a></li>
+      <li><a href="https://na.finalfantasyxiv.com/lodestone/">lodestone</a></li>
+      <li><a href="https://store.finalfantasyxiv.com/ffxivstore/en-us/">store</a></li>
+      <li><a href="https://ffxiv.eorzeacollection.com/glamours">glamours</a></li>
+    </ul>
+    <ul>
+      <li>art</li>
+      <li><a href="https://pixiv.net/en/">pixiv</a></li>
+    </ul>
+    <ul>
+      <li>personal</li>
+      <li><a href="https://dashboard.twitch.tv/u/owta_/stream-manager">twitch dashboard</a></li>
+      <li><a href="https://dashboard.twitch.tv/u/cakeyneko/stream-manager">chloe dashboard</a></li>
+      <li><a href="https://www.namecheap.com/domains/registration/results/?domain=1shot.moe">namecheap</a></li>
+    </ul>
+    <ul>
+      <li>email</li>
+      <li><a href="https://gmx.com/">gmx</a></li>
+      <li><a href="https://mail.google.com">gmail</a></li>
+      <li><a href="https://outlook.live.com/mail/0/inbox">outlook</a></li>
+    </ul>
+    <ul>
+      <li>misc.</li>
+      <li><a href="https://waifu2x.udp.jp/">waifu2x</a></li>
+      <li><a href="https://avatarcropper.com/">avatar cropper</a></li>
+      <li><a href="https://nibl.co.uk/search">irc anime</a></li>
+      <li><a href="https://3dscapture.com/order.html">3ds capture card</a></li>
+      <li><a href="https://kemono.su">kemono</a></li>
+    </ul>
+  </nav>
+
+  <p><span>lily@helix &gt; </span> <span id="cursor">_</span></p>
+</body>
+</html>
