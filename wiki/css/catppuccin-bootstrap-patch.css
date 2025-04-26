@@ -1,0 +1,393 @@
+
+/* === Catppuccin Mocha Bootstrap Patch === */
+body {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+
+a {
+  color: #89b4fa;
+}
+a:hover,
+a:focus {
+  color: #b4befe;
+}
+
+/* Text color utilities */
+.text-primary {
+  color: #89b4fa !important;
+}
+.text-success {
+  color: #a6e3a1 !important;
+}
+.text-info {
+  color: #74c7ec !important;
+}
+.text-warning {
+  color: #f9e2af !important;
+}
+.text-danger {
+  color: #f38ba8 !important;
+}
+.text-muted {
+  color: #a6adc8 !important;
+}
+
+/* Background color utilities */
+.bg-primary {
+  background-color: #89b4fa !important;
+  color: #1e1e2e !important;
+}
+.bg-success {
+  background-color: #a6e3a1 !important;
+  color: #1e1e2e !important;
+}
+.bg-info {
+  background-color: #74c7ec !important;
+  color: #1e1e2e !important;
+}
+.bg-warning {
+  background-color: #f9e2af !important;
+  color: #1e1e2e !important;
+}
+.bg-danger {
+  background-color: #f38ba8 !important;
+  color: #1e1e2e !important;
+}
+
+/* Table hover and striping */
+.table-hover > tbody > tr:hover {
+  background-color: #313244;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #1e1e2e;
+}
+
+/* Code blocks */
+code {
+  color: #fab387;
+  background-color: #313244;
+}
+pre {
+  color: #cdd6f4;
+  background-color: #1e1e2e;
+  border-color: #313244;
+}
+
+/* Buttons (base overrides, apply more as needed) */
+.btn-primary {
+  background-color: #89b4fa;
+  border-color: #89b4fa;
+  color: #1e1e2e;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #b4befe;
+  border-color: #b4befe;
+  color: #1e1e2e;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #181825;
+  border-color: #313244;
+}
+.navbar-brand,
+.navbar-nav > li > a {
+  color: #cdd6f4 !important;
+}
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  color: #b4befe !important;
+}
+.navbar-toggle {
+  border-color: #313244;
+}
+.navbar-toggle .icon-bar {
+  background-color: #cdd6f4;
+}
+.navbar-collapse,
+.navbar-form {
+  border-color: #313244;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #313244;
+}
+
+/* === Extended Catppuccin Mocha Patch === */
+
+/* Navbar */
+.navbar,
+.navbar-default {
+  background-color: #181825;
+  border-color: #313244;
+}
+.navbar .navbar-brand,
+.navbar-default .navbar-brand {
+  color: #cdd6f4;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #b4befe;
+}
+.navbar .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a {
+  color: #cdd6f4;
+}
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #b4befe;
+  background-color: #313244;
+}
+.navbar-default .navbar-toggle {
+  border-color: #313244;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #cdd6f4;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #313244;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  background-color: #313244;
+  border-color: #45475a;
+}
+.dropdown-menu > li > a {
+  color: #cdd6f4;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #1e1e2e;
+  background-color: #b4befe;
+}
+
+/* Modals */
+.modal-content {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  border-color: #313244;
+}
+.modal-header,
+.modal-footer {
+  border-color: #313244;
+}
+.modal-header .close {
+  color: #cdd6f4;
+  text-shadow: none;
+}
+.modal-header .close:hover {
+  color: #f38ba8;
+}
+
+/* Alerts */
+.alert {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #1e1e2e;
+}
+.alert-success {
+  background-color: #a6e3a1;
+  border-color: #94e2d5;
+}
+.alert-info {
+  background-color: #74c7ec;
+  border-color: #89dceb;
+}
+.alert-warning {
+  background-color: #f9e2af;
+  border-color: #fab387;
+}
+.alert-danger {
+  background-color: #f38ba8;
+  border-color: #eba0ac;
+}
+
+/* Panels */
+.panel {
+  border: 1px solid #313244;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+.panel-heading {
+  background-color: #313244;
+  border-color: #313244;
+  color: #cdd6f4;
+}
+.panel-footer {
+  background-color: #181825;
+  border-top: 1px solid #313244;
+}
+
+/* Forms */
+.form-control {
+  background-color: #181825;
+  border: 1px solid #313244;
+  color: #cdd6f4;
+}
+.form-control:focus {
+  border-color: #89b4fa;
+  box-shadow: 0 0 8px #89b4fa;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+
+/* === Extended Theme for Catppuccin Mocha === */
+
+/* Buttons */
+.btn-default {
+  color: #cdd6f4;
+  background-color: #313244;
+  border-color: #45475a;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  background-color: #45475a;
+  border-color: #585b70;
+}
+.btn-success {
+  color: #1e1e2e;
+  background-color: #a6e3a1;
+  border-color: #94e2d5;
+}
+.btn-info {
+  color: #1e1e2e;
+  background-color: #74c7ec;
+  border-color: #89dceb;
+}
+.btn-warning {
+  color: #1e1e2e;
+  background-color: #f9e2af;
+  border-color: #fab387;
+}
+.btn-danger {
+  color: #1e1e2e;
+  background-color: #f38ba8;
+  border-color: #eba0ac;
+}
+
+/* Labels */
+.label {
+  background-color: #313244;
+  color: #cdd6f4;
+}
+.label-primary { background-color: #89b4fa; color: #1e1e2e; }
+.label-success { background-color: #a6e3a1; color: #1e1e2e; }
+.label-info    { background-color: #74c7ec; color: #1e1e2e; }
+.label-warning { background-color: #f9e2af; color: #1e1e2e; }
+.label-danger  { background-color: #f38ba8; color: #1e1e2e; }
+
+/* Badges */
+.badge {
+  background-color: #89b4fa;
+  color: #1e1e2e;
+}
+
+/* Progress bars */
+.progress {
+  background-color: #313244;
+}
+.progress-bar {
+  background-color: #89b4fa;
+}
+.progress-bar-success { background-color: #a6e3a1; }
+.progress-bar-info    { background-color: #74c7ec; }
+.progress-bar-warning { background-color: #f9e2af; }
+.progress-bar-danger  { background-color: #f38ba8; }
+
+/* Wells */
+.well {
+  background-color: #1e1e2e;
+  border: 1px solid #313244;
+  color: #cdd6f4;
+}
+
+/* Pagination */
+.pagination > li > a,
+.pagination > li > span {
+  background-color: #1e1e2e;
+  border: 1px solid #313244;
+  color: #cdd6f4;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #313244;
+  border-color: #45475a;
+}
+
+/* Tabs */
+.nav-tabs {
+  border-bottom: 1px solid #313244;
+}
+.nav-tabs > li > a {
+  background-color: #1e1e2e;
+  border: 1px solid transparent;
+  color: #cdd6f4;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background-color: #313244;
+  border-color: #313244 #313244 transparent;
+  color: #b4befe;
+}
+
+/* Tooltips and Popovers */
+.tooltip-inner {
+  background-color: #313244;
+  color: #cdd6f4;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #313244;
+}
+.popover {
+  background-color: #1e1e2e;
+  border: 1px solid #313244;
+  color: #cdd6f4;
+}
+.popover-title {
+  background-color: #313244;
+  border-bottom: 1px solid #45475a;
+  color: #cdd6f4;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+  background-color: #1e1e2e;
+  border: 1px solid #313244;
+  color: #cdd6f4;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+
+/* Close button */
+.close {
+  color: #cdd6f4;
+  text-shadow: none;
+}
+.close:hover,
+.close:focus {
+  color: #f38ba8;
+}
+
+/* Generic elements */
+hr {
+  border-color: #313244;
+}

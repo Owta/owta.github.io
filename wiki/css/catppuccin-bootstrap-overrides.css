@@ -1,0 +1,86 @@
+
+/* Catppuccin Mocha Bootstrap Overrides */
+
+body {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+
+a {
+  color: #89b4fa;
+}
+a:hover {
+  color: #b4befe;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #89b4fa;
+  border-color: #74c7ec;
+  color: #1e1e2e;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #74c7ec;
+  border-color: #89b4fa;
+}
+
+.btn-success {
+  background-color: #a6e3a1;
+  border-color: #94e2d5;
+  color: #1e1e2e;
+}
+.btn-danger {
+  background-color: #f38ba8;
+  border-color: #eba0ac;
+  color: #1e1e2e;
+}
+.btn-warning {
+  background-color: #fab387;
+  border-color: #f9e2af;
+  color: #1e1e2e;
+}
+.btn-info {
+  background-color: #89dceb;
+  border-color: #74c7ec;
+  color: #1e1e2e;
+}
+
+/* Navbar */
+.navbar-default {
+  background-color: #313244;
+  border-color: #45475a;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #cdd6f4;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li.active>a {
+  color: #f5e0dc;
+  background-color: #45475a;
+}
+
+/* Panels */
+.panel-default {
+  background-color: #1e1e2e;
+  border-color: #313244;
+  color: #cdd6f4;
+}
+
+/* Alerts */
+.alert-success {
+  background-color: #a6e3a1;
+  color: #1e1e2e;
+}
+.alert-danger {
+  background-color: #f38ba8;
+  color: #1e1e2e;
+}
+.alert-warning {
+  background-color: #fab387;
+  color: #1e1e2e;
+}
+.alert-info {
+  background-color: #89dceb;
+  color: #1e1e2e;
+}
